@@ -2,9 +2,7 @@ package pool;
 //
 import java.awt.Graphics2D;
 //
-public abstract  class NativePainter implements Painter{
-	abstract public void display(Shape __thing);
-	
+public abstract  class NativePainter implements Painter{	
 	Graphics2D getBrush(){
 		return(FBrush);
 	}

@@ -1,6 +1,5 @@
 package pool;
 
-
 public class Cushions extends Shape {
 	
 	public Cushions(double __width, double __height){
